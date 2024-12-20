@@ -1,3 +1,5 @@
+#include "chonky_trackball_less.dtsi"
+
 / {
    chosen {
       zephyr,display = &st7789;
@@ -12,3 +14,5 @@
 };
 
 
+/delete-node/ &kscan0;   // only required if the dongle uses a
+                                // different board than the peripherals
