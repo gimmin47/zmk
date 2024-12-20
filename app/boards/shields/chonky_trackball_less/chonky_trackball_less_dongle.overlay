@@ -4,5 +4,8 @@
   };
 };
 
-
+&kscan0 {
+    col-gpios
+        = ;
+};
 
